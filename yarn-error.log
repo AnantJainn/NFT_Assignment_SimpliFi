@@ -1,0 +1,35 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\rituj\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Git LFS;C:\Program Files\Geth;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\rituj\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\rituj\AppData\Local\Programs\Python\Python310\;C:\Users\rituj\AppData\Local\Microsoft\WindowsApps;C:\Users\rituj\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\rituj\AppData\Local\Programs\Hyper\resources\bin;C:\Program Files\heroku\bin;C:\Users\rituj\AppData\Local\Programs\mongosh\;C:\Users\rituj\AppData\Local\GitHubDesktop\bin;C:\Users\rituj\AppData\Local\Android\Sdk\platform-tools;E:\flutter_windows_3.7.12-stable\flutter\bin;C:\Users\rituj\.dotnet\tools;C:\Users\rituj\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ETIMEDOUT 2606:4700:9643:80e2:e464:6:6810:23:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16)
+
+npm manifest: 
+  {
+    "dependencies": {
+      "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+      "@openzeppelin/contracts": "^5.0.0"
+    },
+    "devDependencies": {
+      "hardhat": "^2.19.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
